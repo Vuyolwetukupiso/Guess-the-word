@@ -1,0 +1,71 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    background: gray;
+}
+
+.container{
+    width: 450px;
+    height: 100px;
+    border-radius: 10px;
+    background: darkslategray
+}
+
+.container .content {
+    margin: 30px 35px 45px;
+}
+
+.container h1{
+    margin-left: 40px;
+    padding: 25px;
+    border-bottom: 1px solid lightgray;
+}
+
+input{
+    margin-left: 15px;
+    margin-bottom: 15;
+    width: 90%;
+    height: 35px;
+    outline: none;
+    border-radius: 6px;
+    border: 1px;
+}
+
+.buttons{
+    display: flex;
+    margin-right: 9%;
+    justify-content: space-around;
+}
+
+.refreshButton {
+    background-color: aquamarine;
+    height: 25px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+}
+
+.checkButton {
+    background-color: aquamarine;
+    height: 25px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+}
+
+#output {
+    margin-left: 20%;
+}
+
+#scrambled {
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
